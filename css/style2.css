@@ -1,0 +1,23 @@
+h1{
+color: aliceblue;   
+    background-color: black;
+}
+.Cloud{
+    color: aqua;
+}
+h1, .Cloud{
+    font-family:'sans-serif';
+    font-size:xx-large;
+}
+.Completed{
+text-align: center;
+font-style: italic;
+font-size: larger;
+background-color: rgb(145, 77, 145);
+color: white;
+}
+h3{
+    text-align: right;
+    text-decoration: underline;
+    background-color: lightblue;
+}
