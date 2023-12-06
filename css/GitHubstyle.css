@@ -1,0 +1,26 @@
+img {
+    height: 200px;
+}
+
+.blue {
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.pink {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
