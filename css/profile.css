@@ -38,9 +38,8 @@
 
 /* user profile and education*/
 .column1 {
-    margin: 20px;
+    margin: 20px 30px;
     flex: 1;
-    margin: 30px;
 }
 
 .profile {
@@ -64,11 +63,12 @@
 
 /* Big user icon*/
 .img1 {
-    width: 60px;
-    ;
-    height: 80px;
+    width: 80px;
+    height: 85px;
     border-radius: 90%;
-    display: block;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
 /*user description*/
@@ -76,14 +76,25 @@
     color: black;
     font-size: 16pt;
     display: flex;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.seatlenmap {
+    display: flex;
+    gap: 5px;
+}
+
+.map-marker {
+    height: 15px;
+    width: 15px;
+    margin-left: 40px;
 }
 
 .seattle {
     color: black;
     font-size: 13pt;
-    justify-content: space-around;
-    text-indent: 30px;
 }
 
 .skills {
@@ -103,7 +114,8 @@
     color: rgb(40, 87, 117);
     font-size: 13pt;
     display: flex;
-    margin: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
     text-decoration: underline;
 }
 
@@ -130,24 +142,28 @@
     width: 400px;
     box-sizing: border-box;
 }
+
 /* Profession related achievements*/
-.coding{
+.coding {
     color: black;
     font-size: 17pt;
     text-indent: 30px;
     margin-top: 10px;
 }
-.dec{
+
+.dec {
     color: grey;
     font-size: 10;
-    text-indent:30px;
+    text-indent: 30px;
     margin-bottom: 10px;
 }
-.trip{
+
+.trip {
     color: black;
     font-size: 14pt;
-    text-indent: 30px;  
+    text-indent: 30px;
 }
+
 /* requests and connections */
 .column2 {
     margin: 30px;
@@ -158,23 +174,106 @@
     background-color: grey;
     height: 70px;
     width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+/*connection request title*/
+.numcirc {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    padding: 9px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.numofreq {
+    color: black;
+    font-size: 11pt;
+    text-indent: 5px;
+}
+
+.conreq {
+    color: white;
+    font-size: 11pt;
+    text-indent: 5px;
 }
 
 .request2 {
     background-color: white;
     border-style: groove;
-    height: 150px;
+    height: 130px;
     width: 200px;
     box-sizing: border-box;
 }
 
+.requestrow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* request people*/
+.p1,
+.p2 {
+    display: flex;
+    gap: 5px;
+}
+
+.todde,
+.phillk {
+    color: black;
+    font-size: 17pt;
+    margin: 15px;
+
+}
+
+.check1,
+.x1 {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.check2,
+.x2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/*connection title*/
 .connections {
     background-color: grey;
     height: 70px;
     width: 200px;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
 }
 
+.numcirc2 {
+    background-color: white;
+    width: 25px;
+    height: 10px;
+    padding: 9px;
+    border-radius: 60%;
+    margin: 8px;
+}
+
+.numofcon {
+    color: black;
+    font-size: 11pt;
+}
+
+.connects {
+    color: white;
+    font-size: 11pt;
+    text-indent: 5px;
+}
+
+/* connection people */
 .connection2 {
     background-color: white;
     border-style: groove;
@@ -183,10 +282,25 @@
     box-sizing: border-box;
 }
 
+.users {
+    color: black;
+    font-size: 13pt;
+    margin: 13px;
+}
+
+/* view more part */
 .con3 {
     background-color: white;
-    height: 70px;
+    height: 60px;
     width: 200px;
     border-style: groove;
     box-sizing: border-box;
+}
+
+.view {
+    color: rgb(40, 87, 117);
+    font-size: 13pt;
+    display: flex;
+    margin: 30px;
+    text-decoration: underline;
 }
