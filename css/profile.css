@@ -19,16 +19,14 @@
     /*justify-content: right;*/
     padding: 10px;
 }
-
-.profile1,
-.home,
-.my,
-.find,
-.sign {
+.profile1,.home,.my,.find,.sign
+ {
     color: white;
-    font-size: 18pt;
+    font-size: 17pt;
 }
-
+.my,.profile1{
+   font-weight: bold;
+}
 .main {
     width: 800px;
     display: flex;
@@ -45,7 +43,7 @@
 .profile {
     background-color: aqua;
     width: 400px;
-    height: 95px;
+    height: 80px;
     /* margin: 40px;*/
     display: flex;
 }
@@ -54,7 +52,7 @@
 .name {
     background-color: white;
     border-style: groove;
-    height: 260px;
+    height: 240px;
     width: 400px;
     box-sizing: border-box;
     /* display: flex;*/
@@ -67,7 +65,7 @@
     height: 85px;
     border-radius: 90%;
     position: relative;
-    margin-top: 50px;
+    margin-top: 37px;
     margin-left: 40px;
 }
 
@@ -81,7 +79,7 @@
     margin-bottom: 10px;
 }
 
-.seatlenmap {
+.images-n-icons {
     display: flex;
     gap: 5px;
 }
@@ -109,19 +107,24 @@
     text-indent: 37px;
     display: flex;
 }
-
+.gear{
+    height: 15px;
+    width: 15px;
+    margin-left: 40px;
+    margin-top: 55px;
+}
 .edit {
-    color: rgb(40, 87, 117);
+    color: rgb(4, 133, 213);
     font-size: 13pt;
     display: flex;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 2px;
     text-decoration: underline;
 }
 
 /*education and stuff*/
 .edu {
-    height: 70px;
+    height: 50px;
     width: 400px;
     background-color: grey;
     margin-top: 40px;
@@ -131,7 +134,7 @@
 /*EDUCATION TEXT*/
 .cation {
     color: white;
-    font-size: 19pt;
+    font-size: 15pt;
     text-indent: 30px;
 }
 
@@ -172,7 +175,7 @@
 
 .requests {
     background-color: grey;
-    height: 70px;
+    height: 50px;
     width: 200px;
     display: flex;
     align-items: center;
@@ -203,7 +206,7 @@
 .request2 {
     background-color: white;
     border-style: groove;
-    height: 130px;
+    height: 110px;
     width: 200px;
     box-sizing: border-box;
 }
@@ -211,29 +214,35 @@
 .requestrow {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 /* request people*/
 .p1,
 .p2 {
     display: flex;
-    gap: 5px;
+    gap: 2px;
 }
-
+/*everyones user icon*/
+.usericon{
+    width: 30px;
+    height: 30px;
+    margin: 9px;
+    border-radius: 50%;
+}
 .todde,
 .phillk {
     color: black;
-    font-size: 17pt;
-    margin: 15px;
-
+    font-size: 15pt;
+    margin-top: 15px;
+    margin-right: 7px;
 }
 
 .check1,
 .x1 {
     width: 20px;
     height: 20px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .check2,
@@ -246,7 +255,7 @@
 /*connection title*/
 .connections {
     background-color: grey;
-    height: 70px;
+    height: 50px;
     width: 200px;
     margin-top: 40px;
     display: flex;
@@ -285,7 +294,7 @@
 .users {
     color: black;
     font-size: 13pt;
-    margin: 13px;
+    margin-top: 14px;
 }
 
 /* view more part */
@@ -298,7 +307,7 @@
 }
 
 .view {
-    color: rgb(40, 87, 117);
+    color: rgb(4, 133, 213);
     font-size: 13pt;
     display: flex;
     margin: 30px;
