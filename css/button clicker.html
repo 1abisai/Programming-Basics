@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="button clicker style.css">
+    <link rel="stylesheet" href="buttonstyle.css">
 </head>
 
 <body>
@@ -14,7 +14,47 @@
             <div class="dojonary">Dojonary</div>
             <input type="text" placeholder="Search">
         </div>
-        <p class="button">Login</p>
+        <button class="button1" onclick="change(this)">Login</button>
     </div>
+    <div class="main">
+        <div class="flex1">
+            <div class="top_ninja">
+                <div class="requestrow">
+                    <div class="ninja">ninja</div>
+                    <div class="noun">noun</div>
+                    <p class="plural">Plural:<span class=italic>ninjas</span></p>
+                    <button class="likebox" onclick="alert('Ninja was liked!')">13 likes</button>
+                </div>
+                <div class="definitionz">
+                    A practioner skilled in the
+                    <span class="highlight">Japanese</span>
+                    art of
+                    <span class="highlight">ninjutsu</span>
+                </div>
+            </div>
+            <div class="bottom_ninja">
+                <div class="requestrow">
+                    <div class="ninja">ninja</div>
+                    <div class="noun">noun</div>
+                    <p class="plural">Plural:<span class=italic>ninjas</span></p>
+                    <button class="likebox" id="like1" onclick="alert('Ninja was liked!')">37 likes</button>
+                </div>
+                <div class="definitionz">
+                    A<span class="highlight"> programmer </span>who breaks down problems
+                    with<span class="highlight"> zen</span>-like focus
+                </div>
+            </div>
+        </div>
+        <div class="flex2">
+            <div class="add-definition">
+                <p class="byyou">
+                    Dojonary is defined by <span class="bold"> YOU</span>
+                </p>
+                <div class="button2" onclick="remove(this)">
+                    <button id="add">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js"></script>
 </body>
-<script src="button clicker.js"></script>

@@ -1,0 +1,123 @@
+/* -------------------top nav--------------------------------*/
+.nav{
+    background-color: grey;
+    height: 85px;
+    width: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-interaction {
+    display: flex;
+    gap: 90px;
+}
+.dojonary{
+    font-size: 20pt;
+    margin-left: 20px;
+}
+.button1{
+    background-color: rgb(0, 174, 255);
+    color: white;
+    padding: 7px;
+    border-style:solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/*---------------------------------ninja information-----------------*/
+.flex1{
+    flex: 3;
+    margin-top: 10px;
+}
+
+.top_ninja, .bottom_ninja{
+    height: 180px;
+    width: 400px;
+    border-style:solid;
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+}
+.ninja{
+    color: black;
+    font-size: 18pt;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.noun{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: black;
+    font-size: 13pt;
+}    
+.likebox{
+    background-color: yellow;
+    padding: 6px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.plural{
+    margin-left: 10px;
+}
+.italic{
+    font-style: italic;
+}
+.requestrow{
+    height: 50px;
+    width: auto;
+    display: flex;
+    display: inline;
+}
+.definitionz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-top: 70px;
+}   
+ .highlight{
+    color: rgb(39, 121, 172);
+    text-decoration: underline;
+ }
+/*---------------------------------add definition----------------------*/
+.flex2{
+    flex: 3;
+    margin-top: 10px;
+    display: flex;
+}
+.add-definition{
+   margin-top: 30px;
+    height: 100px;
+    width: 230px;
+    border-style:solid;
+    display: flex;
+    display: inline;
+}
+.byyou{
+display: flex;
+justify-content: center;
+align-items:center;
+gap: 3px;
+}
+.bold{
+    font-weight: bold;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.add-definition button{
+    background-color: lightgreen;
+    display: flex;
+    font-size: 16pt;
+}
