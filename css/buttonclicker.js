@@ -8,6 +8,6 @@ function change(button1) {
     }
 }
 // remove definition
-function remove(button2){
+function remove(button2) {
     button2.remove(add)
 }
