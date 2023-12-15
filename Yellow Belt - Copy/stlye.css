@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: rgb(201, 115, 130);
+    height: 40px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    border-style: solid;
+}
+
+.black {
+    color: white;
+}
+
+/*-------------- title, search, and shopping cart---------*/
+.main_nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plush {
+    font-size: 40px;
+}
+
+.bar {
+    border-style: solid;
+}
+
+.longer {
+    width: 500px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+#carimg {
+    height: 40px;
+    width: 40px;
+}
+
+/*--------------mini options------*/
+.options {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sections {
+    color: black;
+    font-size: 17pt;
+}
+
+#product {
+    text-decoration: underline;
+    color: rgb(201, 115, 130);
+}
+
+/*------------------------main content---------------*/
+.main {
+    height: 600px;
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    background-color: rgb(201, 115, 130);
+    height: 100px;
+    width: 750px;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*------------------------sorting--------------*/
+.sort {
+    height: 40px;
+    display: flex;
+}
+
+.leftSide {
+    display: flex;
+    display: inline;
+}
+
+.sortBy {
+    color: black;
+    font-size: 17pt;
+}
+.boxes {
+    background-color: white;
+    height: 500px;
+}

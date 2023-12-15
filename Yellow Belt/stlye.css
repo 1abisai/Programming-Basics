@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: rgb(201, 115, 130);
+    height: 40px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+.black {
+    color: white;
+}
+
+/*-------------- title, search, and shopping cart---------*/
+.main_nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plush {
+    font-size: 40px;
+}
+
+.bar {
+    border-style: solid;
+}
+
+.longer {
+    width: 500px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+#carimg {
+    height: 40px;
+    width: 40px;
+}
+
+/*--------------mini options------*/
+.options {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sections {
+    color: black;
+    font-size: 17pt;
+}
+
+#product {
+    text-decoration: underline;
+    color: rgb(201, 115, 130);
+}
+
+/*------------------------main content---------------*/
+.main {
+    height: 600px;
+    width: 0 auto;
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+.title {
+    background-color: rgb(201, 115, 130);
+    height: 100px;
+    width: 0 auto;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*------------------------sorting--------------*/
+.sort {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.leftSide {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sortedBy1,
+.sort {
+    color: black;
+    font-size: 16pt;
+}
+
+.rightSide {
+    display: flex;
+    gap: 10px;
+}
+
+.Border {
+    border-style: solid;
+}
+
+/*-------------------plushy images------------*/
+.main-content {
+    height: 400px;
+    display: flex;
+    gap: 40px;
+    display: inline;
+}
+
+.requestrow1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.plushyimg {
+    height: 165px;
+    width: 165px;
+    margin-top: 10px;
+}
+
+/*----------------------names-------------------------*/
+.details{
+    height: 40px;
+    display: flex;
+    /*gap: 68px;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    color: black;
+    font-size: 18pt;
+    margin: 0 31px;
+}
+
+/*-------------------------------buy button-----------------*/
+.buy{
+    display: flex;
+    gap: 155px;
+    justify-content: center;
+}
+
+.buttonz {
+    background-color:  rgb(201, 115, 130);
+    border-style: none;
+    border-radius: 5%;
+    height: 40px;
+    width: 50px;
+}
+
+.word {
+    color:  white;
+}

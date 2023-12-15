@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+
+<body>
+    <div class="top-nav">
+        <p class="black">FREE PHONES GRIP ON SELECT PURCHASES</p>
+    </div>
+    <div class="main_nav">
+        <p class="plush">PlushStar</p>
+        <div class="bar">
+            <input class="longer" type="text" placeholder="Search">
+        </div>
+        <div class="cart">
+            <p id="cartAmount">0</p>
+            <img id="carimg" src="images/cart-dark.png" alt="shopping cart">
+        </div>
+    </div>
+    <div class="options">
+        <p class="sections">Home</p>
+        <p class="sections">New</p>
+        <p class="sections" id="product">Products</p>
+        <p class="sections">Sales</p>
+        <p class="sections">Blog</p>
+        <p onclick="alert('Contact us at 555-5555')" class="sections">Contact Us</p>
+    </div>
+    <div class="main">
+        <div class="title">
+            <p class="center">Plushy Store</p>
+        </div>
+        <div class="sort">
+            <div class="leftSide">
+                <p class="sortedBy1">62 Products, sorted by
+                <p id="wrd" class="bold">Best Selling</p>
+            </div>
+            <div class="rightSide">
+                <p class="Sort">Sort By</p>
+                <select onchange="switcH(wrd)" class="Border" id="options">
+                    <option value="Best">Best Selling</option>
+                    <option value="Price">Price</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="requestrow1">
+                <div class="box"><img class="plushyimg" src="images/product-image.png" alt="plushy"></div>
+                <div class="box"><img class="plushyimg" src="images/product-image.png" alt="plushy"></div>
+                <div class="box"><img class="plushyimg" src="images/product-image.png" alt="plushy"></div>
+                <div class="box"><img class="plushyimg" src="images/product-image.png" alt="plushy"></div>
+            </div>
+            <div class="details">
+                <p class="item">Mishchief Mouse</p>
+                <p class="item">Shy Shrew</p>
+                <p class="item"> Hangry Hamster</p>
+                <p class="item">Chilly Chinchilla</p>
+            </div>
+            <div class="buy">
+                <button onclick="addtocart(cartAmount)" class="buttonz">
+                    <span class="word">BUY</span>
+                </button>
+                <button onclick="addtocart(cartAmount)" class="buttonz">
+                    <span class="word">BUY</span>
+                </button>
+                <button onclick="addtocart(cartAmount)" class="buttonz">
+                    <span class="word">BUY</span>
+                </button>
+                <button onclick="addtocart(cartAmount)" class="buttonz">
+                    <span class="word">BUY</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
